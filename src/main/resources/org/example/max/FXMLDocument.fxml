@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="499.0" prefWidth="757.0" stylesheets="design.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.max.cal_details_controler">
+   <children>
+      <AnchorPane prefHeight="499.0" prefWidth="214.0" style="-fx-background-color: #ffff;" stylesheets="@design.css " AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button fx:id="UPDATE_SALLARY_DETAILS_grade_maa" alignment="CENTER" layoutX="18.0" layoutY="223.0" mnemonicParsing="false" onAction="#setMAA" prefHeight="38.0" prefWidth="174.0" styleClass="grade-btn" stylesheets="design.css" text="MAA" textFill="WHITE">
+               <font>
+                  <Font name="Tahoma Bold" size="14.0" />
+               </font></Button>
+            <Button fx:id="UPDATE_SALLARY_DETAILS_grade_mcb" alignment="CENTER" layoutX="18.0" layoutY="295.0" mnemonicParsing="false" onAction="#setMCB" prefHeight="38.0" prefWidth="174.0" styleClass="grade-btn" text="MCB" textFill="WHITE">
+               <font>
+                  <Font name="Tahoma Bold" size="14.0" />
+               </font></Button>
+            <Label alignment="CENTER" layoutX="5.0" layoutY="83.0" prefHeight="46.0" prefWidth="199.0" text="Choisir Le Grade :">
+               <font>
+                  <Font name="Tahoma Bold" size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="75.0" fitWidth="86.0" layoutX="68.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/menu.png" />
+               </image></ImageView>
+            <Button fx:id="UPDATE_SALLARY_DETAILS_grade_mca" alignment="CENTER" layoutX="18.0" layoutY="365.0" mnemonicParsing="false" onAction="#setMCA" prefHeight="38.0" prefWidth="174.0" styleClass="grade-btn" stylesheets="@design.css " text="MCA" textFill="WHITE">
+               <font>
+                  <Font name="Tahoma Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="UPDATE_SALLARY_DETAILS_grade_mab" alignment="CENTER" layoutX="18.0" layoutY="150.0" mnemonicParsing="false" onAction="#setMAB" prefHeight="38.0" prefWidth="174.0" styleClass="grade-btn" stylesheets="@design.css" text="MAB" textFill="WHITE">
+               <font>
+                  <Font name="Tahoma Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="UPDATE_SALLARY_DETAILS_grade_professor" alignment="CENTER" layoutX="18.0" layoutY="436.0" mnemonicParsing="false" onAction="#setPRO" prefHeight="38.0" prefWidth="174.0" styleClass="grade-btn" stylesheets="@design.css " text="PROFESSOR" textFill="WHITE">
+               <font>
+                  <Font name="Tahoma Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Button alignment="CENTER" layoutX="379.0" layoutY="154.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="86.0" styleClass="echelon-btn" text="échelon 02">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="256.0" layoutY="154.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="86.0" styleClass="echelon-btn" text="échelon 01">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="501.0" layoutY="154.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="86.0" styleClass="echelon-btn" text="échelon 03">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="629.0" layoutY="154.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="86.0" styleClass="echelon-btn" text="échelon 04">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="256.0" layoutY="224.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="86.0" styleClass="echelon-btn" text="échelon 05">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="379.0" layoutY="224.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="86.0" styleClass="echelon-btn" text="échelon 06">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="501.0" layoutY="224.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="86.0" styleClass="echelon-btn" text="échelon 07">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="629.0" layoutY="224.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="86.0" styleClass="echelon-btn" text="échelon 08">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="256.0" layoutY="295.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="86.0" styleClass="echelon-btn" text="échelon 09">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="379.0" layoutY="295.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="86.0" styleClass="echelon-btn" text="échelon 10">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="501.0" layoutY="295.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="86.0" styleClass="echelon-btn" text="échelon 11">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="629.0" layoutY="295.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="86.0" styleClass="echelon-btn" text="échelon 12">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="299.0" layoutY="102.0" prefHeight="38.0" prefWidth="332.0" text="Choisir L'échelon et les Prime:">
+         <font>
+            <Font name="Tahoma Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="UPDATE_SALLARY_DETAILS_basic_sallary" alignment="CENTER" layoutX="335.0" layoutY="58.0" prefHeight="27.0" prefWidth="259.0" styleClass="textfield">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="UPDATE_SALLARY_DETAILS_echelon01" alignment="CENTER" layoutX="264.0" layoutY="184.0" prefHeight="27.0" prefWidth="70.0" styleClass="textfield" />
+      <TextField fx:id="UPDATE_SALLARY_DETAILS_echelon02" alignment="CENTER" layoutX="387.0" layoutY="184.0" prefHeight="27.0" prefWidth="70.0" styleClass="textfield" />
+      <TextField fx:id="UPDATE_SALLARY_DETAILS_echelon03" alignment="CENTER" layoutX="509.0" layoutY="184.0" prefHeight="27.0" prefWidth="70.0" styleClass="textfield" />
+      <TextField fx:id="UPDATE_SALLARY_DETAILS_echelon04" alignment="CENTER" layoutX="637.0" layoutY="184.0" prefHeight="27.0" prefWidth="70.0" styleClass="textfield" />
+      <TextField fx:id="UPDATE_SALLARY_DETAILS_echelon05" alignment="CENTER" layoutX="264.0" layoutY="254.0" prefHeight="27.0" prefWidth="70.0" styleClass="textfield" />
+      <TextField fx:id="UPDATE_SALLARY_DETAILS_echelon06" alignment="CENTER" layoutX="387.0" layoutY="254.0" prefHeight="27.0" prefWidth="70.0" styleClass="textfield" />
+      <TextField fx:id="UPDATE_SALLARY_DETAILS_echelon07" alignment="CENTER" layoutX="509.0" layoutY="254.0" prefHeight="27.0" prefWidth="70.0" styleClass="textfield" />
+      <TextField fx:id="UPDATE_SALLARY_DETAILS_echelon08" alignment="CENTER" layoutX="637.0" layoutY="254.0" prefHeight="27.0" prefWidth="70.0" styleClass="textfield" />
+      <TextField fx:id="UPDATE_SALLARY_DETAILS_echelon09" alignment="CENTER" layoutX="264.0" layoutY="325.0" prefHeight="27.0" prefWidth="70.0" styleClass="textfield" />
+      <TextField fx:id="UPDATE_SALLARY_DETAILS_echelon10" alignment="CENTER" layoutX="387.0" layoutY="325.0" prefHeight="27.0" prefWidth="70.0" styleClass="textfield" />
+      <TextField fx:id="UPDATE_SALLARY_DETAILS_echelon11" alignment="CENTER" layoutX="509.0" layoutY="325.0" prefHeight="27.0" prefWidth="70.0" styleClass="textfield" />
+      <TextField fx:id="UPDATE_SALLARY_DETAILS_echelon12" alignment="CENTER" layoutX="637.0" layoutY="325.0" prefHeight="27.0" prefWidth="70.0" styleClass="textfield" />
+      <Button alignment="CENTER" layoutX="240.0" layoutY="363.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="146.0" styleClass="prime-btn" text="IND.DOCUMENTATION">
+         <font>
+            <Font name="Tahoma Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="410.0" layoutY="363.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="146.0" styleClass="prime-btn" text="IND.ENCADREMENT">
+         <font>
+            <Font name="Tahoma Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="579.0" layoutY="363.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="146.0" styleClass="prime-btn" text="IND.C.SCIENTIFIQUE">
+         <font>
+            <Font name="Tahoma Bold" size="12.0" />
+         </font>
+      </Button>
+      <TextField fx:id="UPDATE_SALLARY_DETAILS_documentation" alignment="CENTER" layoutX="270.0" layoutY="390.0" prefHeight="27.0" prefWidth="86.0" styleClass="textfield" />
+      <Button fx:id="UPDATE_SALLARY_DETAILS_update_button" alignment="CENTER" layoutX="396.0" layoutY="438.0" mnemonicParsing="false" onAction="#UPDATE_cal_info" prefHeight="38.0" prefWidth="174.0" styleClass="update-btn" stylesheets="@design.css " text="Update" textFill="#f7ea59">
+         <font>
+            <Font name="Tahoma Bold" size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="UPDATE_SALLARY_DETAILS_encadrement" alignment="CENTER" layoutX="440.0" layoutY="390.0" prefHeight="27.0" prefWidth="86.0" styleClass="textfield" />
+      <TextField fx:id="UPDATE_SALLARY_DETAILS_calification_scientifique" alignment="CENTER" layoutX="609.0" layoutY="390.0" prefHeight="27.0" prefWidth="86.0" styleClass="textfield" />
+      <Label layoutX="385.0" layoutY="22.0" text="Salaire de Base ">
+         <font>
+            <Font name="Tahoma Bold" size="20.0" />
+         </font>
+      </Label>
+
+   </children>
+</AnchorPane>

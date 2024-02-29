@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane style="-fx-background-color: #ffff;" stylesheets="@../../../designFinal/newCascadeStyleSheet.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.max.AddCongeDeMaterniteController">
+    <children>
+        <Label layoutX="20" layoutY="20" text="Id Enseignant:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+        <TextField fx:id="idEnseignantField" layoutX="142.0" layoutY="17.0" prefHeight="26.0" prefWidth="192.0" />
+
+        <Label layoutX="20" layoutY="60" text="Date de début:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+
+        <Label layoutX="20" layoutY="100" text="Date de fin:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+
+        <Button layoutX="37.0" layoutY="139.0" onAction="#setEndDate" text="Définir la date de fin 98 jours après la date de début" />
+        <Button layoutX="106.0" layoutY="179.0" onAction="#addRecord" text="Ajouter un enregistrement" />
+        <Button layoutX="110.0" layoutY="218.0" onAction="#checkExistingConge" text="Vérifier le conge existant" />
+
+        <Label fx:id="countdownLabel" contentDisplay="CENTER" layoutX="1.0" layoutY="260" prefHeight="17.0" prefWidth="365.0" />
+      <DatePicker fx:id="startDatePicker" layoutX="142.0" layoutY="57.0" prefHeight="26.0" prefWidth="192.0" stylesheets="@../../../designFinal/newCascadeStyleSheet.css">
+         <styleClass>
+            <String fx:value="month-year-pane" />
+            <String fx:value="week-number-cell" />
+         </styleClass>
+      </DatePicker>
+      <DatePicker fx:id="endDatePicker" layoutX="142.0" layoutY="97.0" prefHeight="26.0" prefWidth="192.0" stylesheets="@../../../designFinal/newCascadeStyleSheet.css">
+         <styleClass>
+            <String fx:value="month-year-pane" />
+            <String fx:value="week-number-cell" />
+         </styleClass>
+      </DatePicker>
+    </children>
+</AnchorPane>

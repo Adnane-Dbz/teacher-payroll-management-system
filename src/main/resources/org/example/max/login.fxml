@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="400.0" style="-fx-background-image: #fffff;" stylesheets="@../../../designFinal/design.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.max.LoginController">
+    <children>
+        <!-- Login Page -->
+        <AnchorPane fx:id="loginPage" prefHeight="540.0" prefWidth="400.0" style="-fx-background-color: #FFFFFF;" stylesheets="@../../../designFinal/design.css">
+            <children>
+                <Label alignment="CENTER" contentDisplay="TOP" layoutX="128.0" layoutY="140.6" prefHeight="42.0" prefWidth="164.0" text="Se connecter" AnchorPane.topAnchor="140.6">
+                    <font>
+                        <Font name="Tahoma Bold" size="24.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="login_username" layoutX="119.0" layoutY="203.0" prefHeight="27.0" prefWidth="184.0" promptText="Entrez votre prénom" />
+                <PasswordField fx:id="login_password" layoutX="118.0" layoutY="257.0" prefHeight="25.0" prefWidth="184.0" promptText="Entrez votre mot de passe" />
+                <Button fx:id="login_login" layoutX="136.0" layoutY="351.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="150.0" styleClass="login-btn" stylesheets="@../../../designFinal/design.css" text="Se connecter">
+                    <font>
+                        <Font name="Tahoma Bold" size="14.0" />
+                    </font>
+                </Button>
+                <CheckBox fx:id="login_showpassword" layoutX="119.0" layoutY="307.0" mnemonicParsing="false" text="Montrer mot de passe" />
+                <Button fx:id="login_forgotpassword" layoutX="220.0" layoutY="484.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="164.0" styleClass="login-btn" stylesheets="@../../../designFinal/design.css" text="Mot de passe oublié">
+                    <font>
+                        <Font name="Tahoma Bold" size="14.0" />
+                    </font>
+                </Button>
+                <Button fx:id="login_signup" layoutX="14.0" layoutY="484.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="164.0" styleClass="login-btn" stylesheets="@../../../designFinal/design.css" text="S'inscrire">
+                    <font>
+                        <Font name="Tahoma Bold" size="14.0" />
+                    </font>
+                </Button>
+            <ImageView fitHeight="79.0" fitWidth="108.0" layoutX="171.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/user.png" />
+               </image>
+            </ImageView>
+            </children>
+        </AnchorPane>
+
+        <!-- Sign Up Page -->
+        <AnchorPane fx:id="signUpPage" prefHeight="540.0" prefWidth="400.0" style="-fx-background-color: #FFFFFF;" stylesheets="@../../../designFinal/design.css" visible="false">
+            <children>
+                <Label alignment="CENTER" contentDisplay="TOP" layoutX="127.0" layoutY="111.4" prefHeight="42.0" prefWidth="164.0" text="S'inscrire" AnchorPane.topAnchor="111.4">
+                    <font>
+                        <Font name="Tahoma Bold" size="24.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="signup_username" layoutX="119.0" layoutY="166.0" prefHeight="27.0" prefWidth="184.0" promptText="Nom de code" />
+                <PasswordField fx:id="signup_password" layoutX="117.0" layoutY="209.0" prefHeight="27.0" prefWidth="184.0" promptText="Mot de passe" />
+                <TextField fx:id="signup_lastname" layoutX="118.0" layoutY="256.0" prefHeight="27.0" prefWidth="184.0" promptText="Nom de famille" />
+                <ComboBox fx:id="signup_question" layoutX="118.0" layoutY="304.0" prefWidth="184.0">
+                    <items>
+                        <FXCollections fx:factory="observableArrayList">
+                            <String fx:value="Quelle est votre couleur préférée?" />
+                            <String fx:value="Quel est le nom de votre animal de compagnie?" />
+                        </FXCollections>
+                    </items>
+                </ComboBox>
+                <TextField fx:id="signup_answer" layoutX="118.0" layoutY="347.0" prefHeight="27.0" prefWidth="184.0" promptText="Réponse" />
+                <Button fx:id="signup_createAccount" layoutX="135.0" layoutY="396.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="150.0" styleClass="login-btn" stylesheets="@../../../designFinal/design.css" text="Créer un compte">
+                    <font>
+                        <Font name="Tahoma Bold" size="14.0" />
+                    </font>
+                </Button>
+                <Button fx:id="signup_backToLogin" layoutX="14.0" layoutY="484.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="164.0" styleClass="login-btn" stylesheets="@../../../designFinal/design.css" text="Retour à la connexion">
+                    <font>
+                        <Font name="Tahoma Bold" size="14.0" />
+                    </font>
+                </Button>
+            <ImageView fitHeight="82.0" fitWidth="79.0" layoutX="171.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/login.png" />
+               </image>
+            </ImageView>
+            </children>
+        </AnchorPane>
+
+        <!-- Forgot Password Page -->
+        <AnchorPane fx:id="forgotPasswordPage" prefHeight="540.0" prefWidth="400.0" style="-fx-background-color: #FFFFFF;" stylesheets="@../../../designFinal/design.css" visible="false">
+            <children>
+                <Label alignment="CENTER" contentDisplay="TOP" layoutX="76.0" layoutY="136.0" prefHeight="42.0" prefWidth="262.0" text="Mot de passe oublié">
+                    <font>
+                        <Font name="Tahoma Bold" size="21.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="forgot_username" layoutX="115.0" layoutY="199.0" prefHeight="27.0" prefWidth="184.0" promptText="Nom de code" />
+                <ComboBox fx:id="forgot_question" layoutX="115.0" layoutY="244.0" prefWidth="184.0">
+                    <items>
+                        <FXCollections fx:factory="observableArrayList">
+                            <String fx:value="Quelle est votre couleur préférée?" />
+                            <String fx:value="Quel est le nom de votre animal de compagnie?" />
+                        </FXCollections>
+                    </items>
+                </ComboBox>
+                <TextField fx:id="forgot_answer" layoutX="115.0" layoutY="287.0" prefHeight="27.0" prefWidth="184.0" promptText="Réponse" />
+                <PasswordField fx:id="forgot_newPassword" layoutX="115.0" layoutY="331.0" prefHeight="27.0" prefWidth="184.0" promptText="Nouveau mot de passe" />
+                <Button fx:id="forgot_resetPassword" layoutX="132.0" layoutY="378.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="150.0" styleClass="login-btn" stylesheets="@../../../designFinal/design.css" text="Réinitialiser">
+                    <font>
+                        <Font name="Tahoma Bold" size="14.0" />
+                    </font>
+                </Button>
+                <Button fx:id="forgot_backToLogin" layoutX="14.0" layoutY="484.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="164.0" styleClass="login-btn" stylesheets="@../../../designFinal/design.css" text="Retour à la connexion">
+                    <font>
+                        <Font name="Tahoma Bold" size="14.0" />
+                    </font>
+                </Button>
+            <ImageView fitHeight="79.0" fitWidth="92.0" layoutX="161.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/images/lock.png" />
+               </image>
+            </ImageView>
+            </children>
+        </AnchorPane>
+    </children>
+</StackPane>

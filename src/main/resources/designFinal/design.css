@@ -1,0 +1,78 @@
+/*
+Click biffs://YunaHost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click biffs://YunaHost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 6 avr. 2024, 23:41:19
+    Author     : admin
+*/
+
+.left-form{
+    -fx-background-color:linear-gradient(to bottom right, #272b3f, #256b51);
+    -fx-border-color:#000;
+    -fx-border-width:.4px 0px .4px .4px;
+}
+
+.right{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+}
+.right:hover{
+     -fx-background-color:#b9b4b4;
+}
+
+.close{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+}
+.close:hover{
+    -fx-background-color:#ff3547;
+}
+
+.textfield{
+    -fx-background-color:linear-gradient(to bottom, #efefef, #eee);
+    -fx-background-radius:4px;
+    -fx-border-color:#000;
+    -fx-border-width:.4px;
+    -fx-border-radius:4px;
+    -fx-font-size:13px;
+    -fx-font-family:"Arial";
+    
+}
+.textfield:focused{
+    -fx-background-color:#fff;
+    -fx-border-color:linear-gradient(to bottom right, #272b3f, #256b51);
+    -fx-border-width:.8px;
+}
+
+.login-btn{
+    -fx-background-color:#007194;
+    -fx-background-radius:5px;
+    -fx-text-fill:#fff;
+    -fx-cursor:hand;
+}
+.login-btn:hover{
+    -fx-background-color:#14a1cc;
+}
+.custom-checkbox .box {
+    -fx-background-color: #ffffff; /* Background color */
+    -fx-border-color: #000000; /* Border color */
+    -fx-border-width: 1px; /* Border width */
+}
+
+.custom-checkbox .box:hover {
+    -fx-background-color: #dddddd; /* Hover background color */
+}
+
+.custom-checkbox .box:selected {
+    -fx-background-color: #007bff; /* Selected background color */
+    -fx-border-color: #007bff; /* Selected border color */
+}
+
+.custom-checkbox .box:selected:hover {
+    -fx-background-color: #0056b3; /* Selected hover background color */
+}
+
+.custom-checkbox .mark {
+    -fx-background-color: #ffffff; /* Check mark color */
+}

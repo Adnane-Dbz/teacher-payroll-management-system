@@ -1,0 +1,252 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 23 avr. 2024, 10:16:03
+    Author     : admin
+*/
+
+.left-form{
+    -fx-background-color:linear-gradient(to bottom,#00Bff9,#004fff );
+    -fx-border-color:#000;
+    -fx-border-width:.4px .4px .4px .4px;
+}
+
+.right-form{
+    -fx-background-color: #8d99ae;
+    -fx-border-color:#000;
+    -fx-border-width:.4px .4px .4px .4px;
+}
+.close{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+}
+.close:hover{
+    -fx-background-color:#ff3547;
+}
+
+.textfield{
+    -fx-background-color:linear-gradient(to bottom, #efefef, #eee);
+    -fx-background-radius:4px;
+    -fx-border-color:#000;
+    -fx-border-width:.4px;
+    -fx-border-radius:4px;
+    -fx-font-size:13px;
+    -fx-font-family:"Arial";
+
+}
+.textfield:focused{
+    -fx-background-color:#fff;
+    -fx-border-color:linear-gradient(to bottom right, #272b3f, #256b51);
+    -fx-border-width:.8px;
+}
+
+.grade-btn{
+    -fx-background-color:linear-gradient(to bottom,#00Bff9,#004fff );
+    -fx-background-radius:5px;
+    -fx-text-fill:#fff;
+    -fx-cursor:hand;
+}
+.grade-btn:hover{
+    -fx-background-color:#007acc ;
+}
+
+.update-btn{
+     -fx-background-color:linear-gradient(to bottom,#fcac0a,#fcff00 );
+    -fx-background-radius:5px;
+    -fx-text-fill:#fff;
+    -fx-cursor:hand;
+}
+.update-btn:hover{
+
+    -fx-background-color:#fad60a;
+}
+.prime-btn{
+     -fx-background-color:#007acc;
+    -fx-background-radius:5px;
+    -fx-text-fill:#fff;
+    -fx-cursor:hand;
+}
+.prime-btn:hover{
+
+    -fx-background-color:#007acc;
+}
+.reste-btn{
+     -fx-background-color:#007acc;
+    -fx-background-radius:5px;
+    -fx-text-fill:#fff;
+    -fx-cursor:hand;
+}
+.reste-btn:hover{
+
+    -fx-background-color:#007acc;
+}
+.custom-checkbox .box {
+    -fx-background-color: #ffffff; /* Background color */
+    -fx-border-color: #000000; /* Border color */
+    -fx-border-width: 1px; /* Border width */
+}
+
+.custom-checkbox .box:hover {
+    -fx-background-color: #dddddd; /* Hover background color */
+}
+
+.custom-checkbox .box:selected {
+    -fx-background-color: #007bff; /* Selected background color */
+    -fx-border-color: #007bff; /* Selected border color */
+}
+
+.custom-checkbox .box:selected:hover {
+    -fx-background-color: #0056b3; /* Selected hover background color */
+}
+
+.custom-checkbox .mark {
+    -fx-background-color: #ffffff; /* Check mark color */
+}
+
+
+
+
+* {
+	-fx-primary-color: #007acc;
+	-fx-secondary-color: #4B6EAF;
+	-fx-light-grey-color: #d1d1d1;
+    
+	-fx-focus-color: -fx-secondary-color;
+}
+
+.date-picker .arrow-button {
+	-fx-background-color: -fx-primary-color;
+	-fx-background-radius: 0;
+}
+.date-picker .arrow-button:hover {
+	-fx-background-color: -fx-secondary-color;
+}
+.date-picker .arrow-button .arrow {
+	-fx-background-color: white;
+}
+.date-picker .cell {
+	-fx-background-color: white;
+}
+.date-picker .cell:hover {
+	-fx-background-color: -fx-light-grey-color;
+}
+.date-picker .cell:focused {
+	-fx-background-color: -fx-light-grey-color;
+}
+.date-picker .selected {
+	-fx-background-color: -fx-primary-color;
+	-fx-text-fill: white;
+}
+.date-picker .selected:focused {
+	-fx-background-color: -fx-primary-color;
+	-fx-text-fill: white;
+}
+.date-picker-popup  {
+	-fx-border-color: transparent;
+}
+.date-picker-popup .month-year-pane {
+	-fx-background-color: -fx-primary-color;
+}
+.date-picker-popup .month-year-pane .label {
+	-fx-text-fill: white;
+}
+.date-picker-popup .week-number-cell {
+	-fx-text-fill: -fx-secondary-color;
+}
+.date-picker-popup .spinner .button .left-arrow,
+.date-picker-popup .spinner .button .right-arrow {
+	-fx-background-color: white;
+}
+.anchor-pane {
+    -fx-background-color: #f0f0f0; /* Background color */
+    -fx-padding: 10px; /* Padding */
+    -fx-border-color: #cccccc; /* Border color */
+    -fx-border-width: 1px; /* Border width */
+    -fx-border-radius: 5px; /* Border radius */
+}
+
+
+
+/* Style the entire TableView */
+.table-view {
+    -fx-background-color: #f4f4f4;
+    -fx-border-color: #d1d1d1;
+    -fx-table-cell-border-color: transparent;
+}
+
+/* Style the TableView header */
+.table-view .column-header-background {
+    -fx-background-color: #2a2a2a;
+}
+
+.table-view .column-header {
+    -fx-background-color: #2a2a2a;
+    -fx-border-color: transparent;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+/* Style the TableView rows */
+.table-view .table-row-cell {
+    -fx-background-color: #ffffff;
+    -fx-border-color: transparent;
+}
+
+.table-view .table-row-cell:odd {
+    -fx-background-color: #f9f9f9;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #ffa726;
+    -fx-text-fill: white;
+}
+
+/* Style the TableView cells */
+.table-view .table-cell {
+    -fx-padding: 8px;
+    -fx-border-color: #e1e1e1;
+    -fx-border-width: 0 0 1px 0;
+    -fx-text-fill: #333333;
+    -fx-font-size: 12px;
+}
+
+.table-view .table-cell:selected {
+    -fx-background-color: #ffa726;
+    -fx-text-fill: white;
+}
+
+.update1-btn{
+     -fx-background-color:linear-gradient(to bottom,#662d8c,#ed1e79 );
+    -fx-background-radius:5px;
+    -fx-text-fill:#fff;
+    -fx-cursor:hand;
+}
+.update1-btn:hover{
+
+    -fx-background-color:#ed1e79;
+}
+.prime1-btn{
+     -fx-background-color:#0072a6;
+    -fx-background-radius:5px;
+    -fx-text-fill:#fff;
+    -fx-cursor:hand;
+}
+.prime1-btn:hover{
+
+    -fx-background-color:#009db9;
+}
+.grade1-btn{
+    -fx-background-color:linear-gradient(to bottom,#662d8c,#ed1e79 );
+    -fx-background-radius:5px;
+    -fx-text-fill:#fff;
+    -fx-cursor:hand;
+}
+.grade1-btn:hover{
+    -fx-background-color:#ed1e79 ;
+}

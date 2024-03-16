@@ -1,0 +1,85 @@
+/*
+Click biffs://YunaHost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click biffs://YunaHost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/*
+    Created on : 19 avr. 2024, 11:34:37
+    Author     : admin
+*/
+.left-form{
+    -fx-background-color:#14a1cc;
+    -fx-border-color:#000;
+    -fx-border-width:.4px 0px .4px .4px;
+}
+
+/*.right-form{
+    -fx-background-color:#fff;
+    -fx-border-color:#000;
+    -fx-border-width:.4px .4px .4px 0px;
+}
+*/
+.close{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+}
+.close:hover{
+    -fx-background-color:#ff3547;
+}
+
+.textfield{
+    -fx-background-color:linear-gradient(to bottom, #efefef, #eee);
+    -fx-background-radius:4px;
+    -fx-border-color:#000;
+    -fx-border-width:.4px;
+    -fx-border-radius:4px;
+    -fx-font-size:13px;
+    -fx-font-family:"Arial";
+
+}
+.textfield:focused{
+    -fx-background-color:#fff;
+    -fx-border-color:linear-gradient(to bottom right, #272b3f, #256b51);
+    -fx-border-width:.8px;
+}
+
+.grade-btn{
+    -fx-background-color:linear-gradient(to bottom,#662d8c,#ed1e79 );
+    -fx-background-radius:5px;
+    -fx-text-fill:#fff;
+    -fx-cursor:hand;
+}
+.grade-btn:hover{
+    -fx-background-color:#ed1e79 ;
+}
+.echelon-btn{
+     -fx-background-color:#009db9;
+    -fx-background-radius:5px;
+    -fx-text-fill:#fff;
+    -fx-cursor:hand;
+}
+.echelon-btn:hover{
+
+    -fx-background-color:#00d9ff;
+}
+.update-btn{
+     -fx-background-color:linear-gradient(to bottom,#662d8c,#ed1e79 );
+    -fx-background-radius:5px;
+    -fx-text-fill:#fff;
+    -fx-cursor:hand;
+}
+.update-btn:hover{
+
+    -fx-background-color:#ed1e79;
+}
+.prime-btn{
+     -fx-background-color:#0072a6;
+    -fx-background-radius:5px;
+    -fx-text-fill:#fff;
+    -fx-cursor:hand;
+}
+.prime-btn:hover{
+
+    -fx-background-color:#009db9;
+}
+
+

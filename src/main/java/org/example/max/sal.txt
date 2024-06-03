@@ -1,0 +1,15 @@
+garade M.A.B
+basic_salary:1190
+echlent:60 119 179 238 298 357 417 476 536 595 655 714
+
+garade M.A.A
+basic_salary:1255
+echlent:63 126 188 251 314 377 439 502 565 628 690 753
+
+garade M.C.B
+basic_salary:1325
+echlent:66 133 199 265 331 398 464 530 596 663 729 753
+
+garade M.C.A
+basic_salary:1480
+echlent:74 148 222 296 370 444 518 592 666 740 814 888
